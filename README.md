@@ -50,37 +50,6 @@
 - Implemented **hybrid search (Vector + BM25)** over a **ChromaDB** knowledge base for accurate retrieval of Indian regulatory content.
 - Deployed on **AWS** and **Vercel** for a production-ready, scalable setup.
 
----
-
-### 📄 [ComplyRAG](https://github.com/sairampolisetty) — Corrective RAG Engine
-> **Retrieval-Augmented Compliance Q&A for Indian Startup Regulations**
-
-![React](https://img.shields.io/badge/React-Tailwind-61DAFB?logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=nodedotjs&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-Orchestration-1C3C3C) ![Gemini](https://img.shields.io/badge/Gemini_2.5-Flash%2FFlash--Lite-4285F4?logo=googlegemini&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
-
-- Architected a **Corrective RAG pipeline** scoped to Indian startup compliance documents — Udyam registration, GST, DPIIT/Startup India, and WhatsApp Business API policies.
-- Orchestrated grader/rewriter/retrieval nodes with **LangGraph**, using **Gemini 2.5 Flash-Lite** for lightweight nodes to stay within free-tier rate limits.
-- Built a hand-verified **15–20 question evaluation set** and implemented **exponential backoff** for API 429 handling from day one.
-
----
-
-### 📲 [WhatsApp Vendor Notifier](https://github.com/sairampolisetty)
-> **Automated Order Notifications via WhatsApp Business API**
-
-![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?logo=nodedotjs&logoColor=white) ![WhatsApp API](https://img.shields.io/badge/Meta-WhatsApp_Business_API-25D366?logo=whatsapp&logoColor=white)
-
-- Designed a SaaS platform that automatically notifies vendors via **WhatsApp** the moment an order is received, built on **Meta's WhatsApp Business API**.
-- Mapped an onboarding path from Meta's unverified tier through **Udyam MSME registration** to full business verification, lifting the 250-contacts/day cap.
-
----
-
-### 🌐 [YouTube Word-Meaning Assistant](https://github.com/sairampolisetty) — Chrome Extension
-> **AI-Powered Floating Assistant for YouTube**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-Chrome_Extension-F7DF1E?logo=javascript&logoColor=black) ![Groq](https://img.shields.io/badge/Groq-Llama_3.3_70B-F55036)
-
-- Built a draggable, floating bubble UI that lets users look up word meanings instantly while watching YouTube videos.
-- Integrated **Groq's free API (Llama 3.3 70B Versatile)** for fast, low-latency lookups.
-- Secured the API key inside the background service worker, with keyboard event isolation for a clean UX.
 
 ---
 
